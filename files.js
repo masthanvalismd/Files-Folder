@@ -7,7 +7,7 @@ fs.readdir(`${__dirname}/${process.argv[2]}`, (err, files) => {
     //to catch the errors
     if (err) {
         console.log("error occured",err)
-    } //if no errors occured it print files
+    } //if no errors occured it will print files
     else {
         console.log(files);
        
